@@ -1,0 +1,31 @@
+## CREATE
+
+POST http://localhost:8080/accounts
+Content-Type: application/json
+{
+    "name": "Harry",
+    "doc": "123"
+
+}
+
+
+## READ
+
+GET http://localhost:8080/accounts
+Content-Type: application/json
+
+
+## UPDATE
+
+PUT http://localhost:8080/account/123
+Content-Type: application/json
+{
+    "name": "Harry2",
+    "doc": "456",
+    "balance": "99"
+}
+
+
+## DELETE
+
+DELETE http://localhost:8080/account/123
